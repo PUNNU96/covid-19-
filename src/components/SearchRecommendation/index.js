@@ -6,8 +6,9 @@ const SearchRecommendation = props => {
   const {statename, statecode, id} = props
 
   return (
-    <li>
+    
       <Link to={`/state/${id}`} className="search-link">
+      <li>
         <div className="search-result">
           <h1 className="search-result-heading font-face-gm">{statename}</h1>
 
@@ -20,8 +21,9 @@ const SearchRecommendation = props => {
             />
           </button>
         </div>
+        </li>
       </Link>
-    </li>
+    
   )
 }
 
