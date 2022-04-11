@@ -51,23 +51,23 @@ class Header extends Component {
             </Link>
           </ul>
         </div>
-        <div className="mobile-header-container">
-          <Link to="/" className="link">
-            <h1 className="logo">
-              COVID19<spam className="india">INDIA</spam>
-            </h1>
-          </Link>
-          <button
-            type="button"
-            className="toggle-button"
-            onClick={this.whenToggleButtonClick}
-          >
-            <ImMenu2 className="menuIcon" alt="menu" />
-          </button>
-        </div>
-        <div className="menu">
-          {isToggleActive ? this.showDropDownMenu() : null}
-        </div>
+//         <div className="mobile-header-container">
+//           <Link to="/" className="link">
+//             <h1 className="logo">
+//               COVID19<spam className="india">INDIA</spam>
+//             </h1>
+//           </Link>
+//           <button
+//             type="button"
+//             className="toggle-button"
+//             onClick={this.whenToggleButtonClick}
+//           >
+//             <ImMenu2 className="menuIcon" alt="menu" />
+//           </button>
+//         </div>
+//         <div className="menu">
+//           {isToggleActive ? this.showDropDownMenu() : null}
+//         </div>
       </>
     )
   }
