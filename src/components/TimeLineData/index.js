@@ -156,7 +156,7 @@ class TimeLineData extends Component {
       <div className="barchart-container">{this.barChart()}</div>
 
       <h1 className="charts-title">Spread Trends</h1>
-      <div testid="lineChartsContainer" className="barcharts-container">
+      <div className="barcharts-container">
         <div className="charts confirmed-background">
           {this.graph('confirmed', '#FF073A')}
         </div>
